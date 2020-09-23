@@ -1483,7 +1483,7 @@ video {
 
 .cookie-icon:hover {
   transform: scale(1.05);
-  filter: brightness(200%);
+  filter: invert(64%) sepia(39%) saturate(843%) hue-rotate(131deg) brightness(200%) contrast(97%);
 }
 
 @media (min-width: 768px){
