@@ -1472,6 +1472,20 @@ video {
   filter: invert(64%) sepia(39%) saturate(843%) hue-rotate(131deg) brightness(200%) contrast(97%);
 }
 
+.cookie-icon {
+  position: fixed;
+  bottom: 0.1%;
+  left: 0.1%;
+  padding: 1rem;
+  width: 5%;
+  transition: 200ms ease;
+}
+
+.cookie-icon:hover {
+  transform: scale(1.05);
+  filter: brightness(200%);
+}
+
 @media (min-width: 768px){
   .footer{
     padding-left: 2rem;
