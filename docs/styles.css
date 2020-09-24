@@ -1472,6 +1472,43 @@ video {
   filter: invert(64%) sepia(39%) saturate(843%) hue-rotate(131deg) brightness(200%) contrast(97%);
 }
 
+.cookie-icon {
+  position: fixed;
+  bottom: 0.1%;
+  left: 0.1%;
+  padding: 1rem;
+  width: 5%;
+  transition: 200ms ease;
+}
+
+.cookie-icon:hover {
+  transform: scale(1.05);
+  filter: invert(64%) sepia(39%) saturate(843%) hue-rotate(131deg) brightness(200%) contrast(97%);
+}
+
+.hideCookieName {
+  display: none;
+}
+
+.cookie-icon:hover + .hideCookieName {
+  display: inline-block;
+  position: fixed;
+  bottom: 2.75%;
+  left: 5%;
+  transform: translateX(5px);
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 20px;
+  overflow: hidden;
+  padding: 0.5rem;
+  color: #FFFFFF;
+  background-color: #222;
+  border-radius: 25px;
+  border-color: rgba(19, 194, 194, 1);
+  border-width: 3px;
+}
+
+
 @media (min-width: 768px){
   .footer{
     padding-left: 2rem;
