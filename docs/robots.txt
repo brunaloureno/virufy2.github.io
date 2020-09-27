@@ -1,11 +1,7 @@
 User-agent: GoogleBot
-Disallow: /img/
-Disallow: /scripts/
-Disallow: /src/
+Disallow: 
 
 User-agent: *
-Disallow: /img/
-Disallow: /scripts/
-Disallow: /src/
+Disallow: 
 
 sitemap: http://virufy.org/sitemap.xml

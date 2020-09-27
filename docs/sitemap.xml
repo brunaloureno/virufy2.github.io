@@ -1088,6 +1088,12 @@
     />
 </url>
 <url>
+  <loc>https://virufy.org/</loc>
+  <lastmod>2020-09-25T17:11:11+00:00</lastmod>
+  <priority>0.99</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
   <loc>https://virufy.org/cookie_policy.pdf</loc>
   <lastmod>2020-09-25T17:11:11+00:00</lastmod>
   <priority>0.45</priority>
