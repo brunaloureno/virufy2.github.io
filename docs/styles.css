@@ -1488,9 +1488,15 @@ video {
   }
 }
 
-@media (min-width: 640px){
+@media (min-width: 300px){
   .sm\:container{
     width: 100%;
+  }
+
+  @media (min-width: 640px){
+    .sm\:container{
+      max-width: 640px;
+    }
   }
 
   @media (min-width: 640px){
@@ -1557,6 +1563,13 @@ video {
 
   .sm\:w-2\/3{
     width: 66.666667%;
+  }
+
+  .sm\:h-2\/3{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    line-height: 1.25rem;
+    max-height: 20rem;
   }
 }
 
