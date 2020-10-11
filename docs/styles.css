@@ -2161,3 +2161,21 @@ video {
     }
   }
 }
+
+/* Start OYW.html */
+.rectangle {
+  width: 358px;
+  height: 300px;
+  left: 169px;
+  top: 2875px;
+  background: #8ACFB7;
+  margin-right: 3rem;
+  margin-top: 2rem;
+}
+
+.center{
+  text-align: center;
+  font-size: 1.3rem;
+  color: #FFFFFF;
+}
+/* End with OYW.html */
