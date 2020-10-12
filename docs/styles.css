@@ -2164,18 +2164,26 @@ video {
 
 /* Start OYW.html */
 .rectangle {
-  width: 358px;
-  height: 300px;
+  width: 300px;
+  height: 380px;
   left: 169px;
   top: 2875px;
   background: #8ACFB7;
-  margin-right: 3rem;
-  margin-top: 2rem;
+  margin-right: 0.3rem;
 }
 
-.center{
-  text-align: center;
-  font-size: 1.3rem;
-  color: #FFFFFF;
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="rectangle"] {
+    margin-left: auto;
+    margin-right: ;
+  }
 }
+
+.oyw-image{
+  height: 90%;
+}
+
+
 /* End with OYW.html */
