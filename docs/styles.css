@@ -2177,12 +2177,21 @@ video {
   /* For mobile phones: */
   [class*="rectangle"] {
     margin-left: auto;
-    margin-right: ;
+    margin-right: auto;
   }
 }
 
 .oyw-image{
   height: 90%;
+}
+
+.oyw-collaboration{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.oyw-collaboration > p > b{
+  color: #08979C;
 }
 
 
