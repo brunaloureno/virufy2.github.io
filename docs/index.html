@@ -22,6 +22,25 @@
       data-blockingmode="auto"
       type="text/javascript"
     ></script>
+    <script>
+      const language = navigator.language || navigator.browserLanguage
+      switch(language){
+        case 'pt-BR':
+          window.location.href = "https://virufy.org/br/index.html";
+          break;
+        case 'ja':
+          window.location.href = "https://virufy.org/jp/index.html";
+          break;
+        case 'es':
+          window.location.href = "https://virufy.org/es/index.html";
+          break;
+        case 'hi':
+          window.location.href = "https://virufy.org/hi/index.html";
+          break;
+        default:
+          return;
+      }
+    </script>
    <!-- Hotjar Tracking Code for virufy.org -->
     <script>
         (function(h,o,t,j,a,r){
